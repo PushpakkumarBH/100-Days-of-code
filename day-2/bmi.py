@@ -6,3 +6,4 @@ height=float(input("Enter your height\t"))
 bmi = weight/(height*height)
 new_bmi = int(bmi)
 print("Your BMI is ",new_bmi)
+
