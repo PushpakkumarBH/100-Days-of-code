@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        body {
+          background-image: url('https://images.unsplash.com/photo-1474540412665-1cdae210ae6b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80');
+          background-repeat: no-repeat;
+          background-attachment: fixed; 
+          background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="margin: 5%; color: #563440;"> <%= kindOfDay %></h1>
+    <div style="margin: 5%;">
+    <ul class="list-group">
+        <% for(var i=0;i<newItem.length;i++){ %>
+            <li class="list-group-item "><%= newItem[i] %></li>
+        <% } %>
+    </ul>
+    </div>
+    <form action="/" method="post" style="margin: 5%; align-items: center;">
+        <input type="text" name="newItem" class="form-control" placeholder="Add Item">
+        <button name="button" type="submit" class="btn btn-secondary" style="margin-left: 50%; margin-top: 2%; background-color: #563440;">Add</button>
+    </form>
+</body>
+</html>
