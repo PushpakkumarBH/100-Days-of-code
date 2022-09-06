@@ -1,0 +1,32 @@
+    {
+        "_id": "6315934805c07b2bdf5d52e2",
+        "title": "REST",
+        "content": "Representational State Transfer. It is an architectural style for designing API's"
+    },
+    {
+        "_id": "631598c605c07b2bdf5d52e6",
+        "title": "API",
+        "content": "Application programming interface, allows two apps to talk with one another."
+    },
+    {
+        "_id": "631598ef05c07b2bdf5d52e7",
+        "title": "Bootstrap",
+        "content": "Bootstrap greatly simplifies the process of styling and alignment of form controls."
+    },
+    {
+        "_id": "6315990505c07b2bdf5d52e8",
+        "title": "DOM",
+        "content": "Document Object Model, is a programming API for HTML and XML documents."
+    },
+    {
+        "_id": "6315c49c0cd3a95e4797ab38",
+        "title": "Pushpak",
+        "content": "He is a good guy.",
+        "__v": 0
+    },
+    {
+        "_id": "6315c5c422247b91150ff078",
+        "title": "Angela Yu",
+        "content": "She is a good girl.",
+        "__v": 0
+    }
