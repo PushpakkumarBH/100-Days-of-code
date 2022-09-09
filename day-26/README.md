@@ -8,6 +8,13 @@ In this level the Password is encrypted with passport and many packages.
 In this level cookies are also being created to ensure that logged in user may not need to login again and again.
 
 </aside>
+[passport](https://www.npmjs.com/package/passport)
+
+[passport-local](https://www.npmjs.com/package/passport-local)
+
+[passport-local-mongoose](https://www.npmjs.com/package/passport-local-mongoose)
+
+[express-session](https://www.npmjs.com/package/express-session)
 
 # Install necessary packages
 
@@ -116,3 +123,9 @@ app.post('/login', function(req, res){
 ```
 
 ### Logout Route being Initialised
+```jsx
+app.get('/logout',function(req,res){
+    req.logout();
+    res.redirect('/');
+});
+```
